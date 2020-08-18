@@ -1,0 +1,4 @@
+FROM busybox
+RUN echo "This is a demo example of CMD"
+CMD ["Lalit Aman"]
+ENTRYPOINT ["echo", "Hello"]
